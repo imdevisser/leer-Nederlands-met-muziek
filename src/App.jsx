@@ -26,4 +26,12 @@ export default App;
 const Container = styled.div`
   text-align: center;
   padding: 20px;
+
+  @media (max-width: 768px) {
+    padding: 10px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 5px;
+  }
 `;

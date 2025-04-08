@@ -33,6 +33,11 @@ const Dropdown = styled.div`
   p {
     line-height: 50px;
   }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 0 10px;
+  }
 `;
 
 const Label = styled.label`
@@ -40,12 +45,21 @@ const Label = styled.label`
   display: block;
   font-weight: 600;
   line-height: 50px;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+    line-height: 40px;
+  }
 `;
 
 const Wrapper = styled.div`
   display: inline-block;
   position: relative;
   font-family: sans-serif;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 const Select = styled.select`
@@ -66,5 +80,10 @@ const Select = styled.select`
   &:focus {
     outline: none;
     border-color: #555;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+    padding: 8px 12px;
   }
 `;

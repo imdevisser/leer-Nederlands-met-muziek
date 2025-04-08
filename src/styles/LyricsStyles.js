@@ -8,6 +8,11 @@ export const VideoWrapper = styled.div`
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+    margin-top: 16px;
+  }
 `;
 
 export const Instruction = styled.p`
@@ -16,12 +21,20 @@ export const Instruction = styled.p`
   color: #333;
   margin-bottom: 10px;
   text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
 `;
 
 export const BlankWrapper = styled.span`
   display: inline-flex;
   align-items: center;
   gap: 4px;
+
+  @media (max-width: 768px) {
+    gap: 2px;
+  }
 `;
 
 export const HintWrapper = styled.span`
@@ -97,6 +110,10 @@ export const FactHover = styled.span`
   opacity: 0;
   transition: opacity 0.2s ease;
   z-index: 10;
+
+  @media (max-width: 768px) {
+    font-size: 0.7rem;
+  }
 `;
 
 export const FactHoverWrapper = styled.span`
@@ -127,6 +144,11 @@ export const CheckAnswersButton = styled.button`
   &:focus {
     outline: none;
   }
+
+  @media (max-width: 768px) {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
 `;
 
 export const StyledBr = styled.br`
@@ -137,6 +159,10 @@ export const StyledBr = styled.br`
 export const Verse = styled.div`
   margin-bottom: 60px;
   line-height: 2;
+
+  @media (max-width: 768px) {
+    margin-bottom: 30px;
+  }
 `;
 
 export const LyricsContainer = styled.div`
@@ -146,6 +172,11 @@ export const LyricsContainer = styled.div`
   max-width: 1200px;
   margin: 40px auto;
   font-size: 20px;
+
+  @media (max-width: 768px) {
+    padding: 16px;
+    font-size: 16px;
+  }
 `;
 
 export const BlankInput = styled.input`
@@ -170,4 +201,10 @@ export const BlankInput = styled.input`
       border-color: red;
       background-color: #f9e0e0;
     `}
+
+    @media (max-width: 768px) {
+    font-size: 14px;
+    padding: 4px 6px;
+    width: 80px;
+  }
 `;

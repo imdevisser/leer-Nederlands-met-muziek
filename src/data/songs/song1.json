@@ -1,0 +1,204 @@
+{
+  "id": "song1",
+  "title": "Toveren",
+  "artist": "Herman van Veen",
+  "lyrics": [
+    [
+      {
+        "text": "Luister goed naar het liedje. Vul alle werkwoorden in het imperfectum in.",
+        "type": "instruction"
+      },
+      { "type": "newline" },
+
+      { "text": "Als hij ", "type": "text" },
+      {
+        "text": "kon",
+        "type": "blank",
+        "answer": "kon"
+      },
+      { "text": " toveren, ", "type": "text" },
+      {
+        "text": "kwam",
+        "type": "blank",
+        "answer": "kwam",
+        "hint": "verleden tijd van 'komen'"
+      },
+      { "text": " alles voor elkaar", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "Als hij ", "type": "text" },
+      { "text": "kon", "type": "blank", "answer": "kon" },
+      { "text": " toveren, ", "type": "text" },
+      { "text": "was", "type": "blank", "answer": "was" },
+      { "text": " niemand de sigaar", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "Als hij ", "type": "text" },
+      { "text": "kon", "type": "blank", "answer": "kon" },
+      { "text": " toveren, (x3) ", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "Dan ", "type": "text" },
+      {
+        "text": "hielden",
+        "type": "blank",
+        "answer": "hielden",
+        "hint": "verleden tijd van 'houden'"
+      },
+      { "text": " alle mensen van elkaar. ", "type": "text" }
+    ],
+    [
+      { "text": "Ieder huis ", "type": "text" },
+      { "text": "had", "type": "blank", "answer": "had" },
+      { "text": " honderd kamers, ", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "in elke kamer ", "type": "text" },
+      {
+        "text": "stond",
+        "type": "blank",
+        "answer": "stond",
+        "hint": "verleden tijd van 'staan'"
+      },
+      { "text": " tv. ", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "En zijn ouders ", "type": "text" },
+      { "text": "bleven", "type": "blank", "answer": "bleven" },
+      { "text": " eeuwig leven en hij ", "type": "text" },
+      { "text": "leefde", "type": "blank", "answer": "leefde" },
+      { "text": " met ze mee.", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "De rivier ", "type": "text" },
+      { "text": "was", "type": "blank", "answer": "was" },
+      {
+        "text": " niet van water, maar van sinaasappelsap.",
+        "type": "text"
+      },
+      { "type": "newline" },
+      {
+        "text": "En hij ",
+        "type": "text"
+      },
+      { "text": "zou", "type": "blank", "answer": "zou" },
+      {
+        "text": " niet hoeven leren wat 'ie eigenlijk niet snapt.",
+        "type": "text"
+      }
+    ],
+    [
+      { "text": "Als hij ", "type": "text" },
+      { "text": "kon", "type": "blank", "answer": "kon" },
+      { "text": " toveren, ", "type": "text" },
+      { "text": "kwam", "type": "blank", "answer": "kwam" },
+      { "text": " alles voor elkaar", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "(En niemand ", "type": "text" },
+      {
+        "text": "leed",
+        "type": "blank",
+        "answer": "leed",
+        "hint": "verleden tijd van 'lijden'"
+      },
+      { "text": " er honger) ", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "Als hij ", "type": "text" },
+      { "text": "kon", "type": "blank", "answer": "kon" },
+      { "text": " toveren, dan ", "type": "text" },
+      { "text": "werd", "type": "blank", "answer": "werd" },
+      { "text": " geen mens te zwaar", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "(En iedereen die ", "type": "text" },
+      {
+        "text": "zong",
+        "type": "blank",
+        "answer": "zong",
+        "hint": "verleden tijd van 'zingen'"
+      },
+      { "text": " er) ", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "Als hij ", "type": "text" },
+      { "text": "kon", "type": "blank", "answer": "kon" },
+      { "text": " toveren, (x3) ", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "Dan ", "type": "text" },
+      { "text": "hielden", "type": "blank", "answer": "hielden" },
+      { "text": " alle mensen van elkaar. ", "type": "text" }
+    ],
+    [
+      { "text": "Zijn vriendje ", "type": "text" },
+      { "text": "zou", "type": "blank", "answer": "zou" },
+      { "text": " ineens begrijpen, ", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "waarom hij ruzie met hem ", "type": "text" },
+      {
+        "text": "kreeg",
+        "type": "blank",
+        "answer": "kreeg",
+        "hint": "verleden tijd van 'krijgen'"
+      },
+      { "type": "newline" },
+
+      { "text": "En iedereen ", "type": "text" },
+      { "text": "zou", "type": "blank", "answer": "zou" },
+      { "text": " voor hem buigen, ", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "als hij de troon ", "type": "text" },
+      {
+        "text": "besteeg",
+        "type": "blank",
+        "answer": "besteeg",
+        "hint": "verleden tijd van 'bestijgen'"
+      },
+      { "type": "newline" },
+
+      { "text": "En 's winters ", "type": "text" },
+      {
+        "text": "lag",
+        "type": "blank",
+        "answer": "lag",
+        "hint": "verleden tijd van 'liggen'"
+      },
+      { "text": " er altijd sneeuw, en ", "type": "text" },
+      { "text": "was", "type": "blank", "answer": "was" },
+      { "text": " het lekker warm, ", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "En niemand ", "type": "text" },
+      { "text": "werd", "type": "blank", "answer": "werd" },
+      { "text": " er rijk geboren, en niemand ", "type": "text" },
+      { "text": "werd", "type": "blank", "answer": "werd" },
+      { "text": " er arm.", "type": "text" },
+      { "type": "newline" },
+      { "type": "newline" },
+
+      { "text": "Refrein x1", "type": "text" },
+      { "type": "newline" },
+
+      {
+        "text": "(Maar voor een toverspreuk van kwaliteit ben je zomaar duizend gulden kwijt. En naar een beetje toverboek ben je toch wel vijftig jaar op zoek. En de hele cursus tovenaar duurt honderdvijfentwintig jaar)",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Dat brengt hij allemaal niet op, ik denk dat hij voor 't begin al stopt",
+        "type": "text"
+      },
+      { "text": "Want zelfs de oma van zijn oma, ", "type": "text" },
+      { "text": "had", "type": "blank", "answer": "had" },
+      { "text": " nooit een tovenaarsdiploma.", "type": "text" },
+      { "type": "newline" },
+      { "text": "Refrein x1", "type": "text" }
+    ]
+  ],
+  "youtube": "https://www.youtube.com/watch?v=iVjPesQO-08"
+}

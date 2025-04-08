@@ -1,0 +1,535 @@
+{
+  "id": "song3",
+  "title": "Het land van",
+  "artist": "Lange Frans & Baas B",
+  "lyrics": [
+    [
+      {
+        "text": "Vul de werkwoorden in in de juiste vorm (tegenwoordige tijd, perfectum, imperfectum).",
+        "type": "instruction"
+      },
+
+      {
+        "text": "Culturele feitjes -- Beweeg met je muis over het woord om te zien wat het betekent of wie die persoon is.",
+        "type": "text"
+      }
+    ],
+    [
+      { "text": "Kom uit het land van ", "type": "text" },
+      {
+        "text": "Pim Fortuin",
+        "type": "text",
+        "fact": "Fortuyn werd op 6 mei 2002 vermoord vanwege zijn politieke standpunten, de eerste politieke moord in Nederland sinds 1672."
+      },
+      { "text": " en Volkert van der G", "type": "text" },
+      { "type": "newline" },
+
+      {
+        "text": "Het land van Theo van Gogh en Mohammed B.",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Kom uit het land van kroketten, frikandellen",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Die je tot aan de Spaanse kust ",
+        "type": "text"
+      },
+      {
+        "text": "kunt",
+        "type": "blank",
+        "answer": "kunt"
+      },
+      {
+        "text": " bestellen",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Kom uit het land waar Air Max nooit uit de mode raken",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Waar ze je ",
+        "type": "text"
+      },
+      {
+        "text": "kraken",
+        "type": "blank",
+        "answer": "kraken"
+      },
+      {
+        "text": " 't moment dat je het groot ",
+        "type": "text"
+      },
+      {
+        "text": "gaat",
+        "type": "blank",
+        "answer": "gaat"
+      },
+      {
+        "text": " maken.",
+        "type": "text"
+      },
+      { "type": "newline" }
+    ],
+    [
+      {
+        "text": "Kom uit het land van rood-wit-blauw en ",
+        "type": "text"
+      },
+      {
+        "text": "de gouden leeuw",
+        "type": "text",
+        "fact": "De gouden leeuw is het nationale symbool van Nederland."
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Plunderen de wereld, noemen het De Gouden Eeuw",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Kom uit het land van wietplantages en ",
+        "type": "text"
+      },
+      {
+        "text": "fietsvierdaagses",
+        "type": "text",
+        "fact": "Fietsvierdaagse is een populaire fietstocht in Nederland."
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Het land waar je een junkie om een fiets kan vragen",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Het land dat kampioen ",
+        "type": "text"
+      },
+      {
+        "text": "werd",
+        "type": "blank",
+        "answer": "werd"
+      },
+      {
+        "text": " in '88",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Het land van ",
+        "type": "text"
+      },
+      {
+        "text": "haringhappen",
+        "type": "text",
+        "fact": "Haringhappen is een typisch Nederlandse traditie waarbij rauwe haring wordt gegeten."
+      },
+      {
+        "text": " , dijken en grachten",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Kom uit het land van, het land van Lange Fransie",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Dit is het land waar ik ",
+        "type": "text"
+      },
+      {
+        "text": "thuiskom",
+        "type": "blank",
+        "answer": "thuiskom"
+      },
+      {
+        "text": " na vakantie",
+        "type": "text"
+      },
+      { "type": "newline" }
+    ],
+    [
+      {
+        "text": "Kom uit het land waar ik in 1982 ",
+        "type": "text"
+      },
+      {
+        "text": "geboren",
+        "type": "blank",
+        "answer": "geboren"
+      },
+      {
+        "text": "ben",
+        "type": "blank",
+        "answer": "ben"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Waar ik m'n ",
+        "type": "text"
+      },
+      {
+        "text": "Guldens ",
+        "type": "text",
+        "fact": "de Guldens waren de munteenheid in Nederland tot en met 2002."
+      },
+      {
+        "text": "aan de Euro ",
+        "type": "text"
+      },
+      {
+        "text": "verloren",
+        "type": "blank",
+        "answer": "verloren"
+      },
+      {
+        "text": "ben",
+        "type": "blank",
+        "answer": "ben"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Het land dat ",
+        "type": "text"
+      },
+      {
+        "text": "meedoet",
+        "type": "blank",
+        "answer": "meedoet"
+      },
+      {
+        "text": " aan de oorlog in Irak",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Want ome Bush ",
+        "type": "text"
+      },
+      {
+        "text": "heeft",
+        "type": "blank",
+        "answer": "heeft"
+      },
+      {
+        "text": " Balkenende",
+        "type": "text",
+        "fact": "Jan Peter Balkenende was de Nederlandse premier die samenwerkte met George W. Bush."
+      },
+      {
+        "text": " in z'n zak.",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Het land van gierig ",
+        "type": "text"
+      },
+      {
+        "text": "zijn",
+        "type": "blank",
+        "answer": "zijn"
+      },
+      {
+        "text": " , een rondje geven is te duur",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "De vette hap van de ",
+        "type": "text"
+      },
+      {
+        "text": " FEBO",
+        "type": "text",
+        "fact": "De FEBO is een populaire keten voor het kopen van snacks."
+      },
+      {
+        "text": "trek",
+        "type": "blank",
+        "answer": "trek"
+      },
+      {
+        "text": " je uit de muur.",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Het land van rellen tussen Ajax en Feyenoord",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Maar wanneer Oranje ",
+        "type": "text"
+      },
+      {
+        "text": "speelt",
+        "type": "blank",
+        "answer": "speelt"
+      },
+      {
+        "text": " , iedereen erbij ",
+        "type": "text"
+      },
+      {
+        "text": "hoort",
+        "type": "blank",
+        "answer": "hoort"
+      },
+      { "type": "newline" }
+    ],
+    [
+      { "text": "Het land van ", "type": "text" },
+      {
+        "text": "Johan Cruijff",
+        "type": "text",
+        "fact": "Johan Cruijff was een legendarische Nederlandse voetballer en coach, bekend om zijn invloed op het moderne voetbal en zijn tijd bij Ajax en FC Barcelona."
+      },
+      { "text": " en Abe Lenstra", "type": "text" },
+      { "type": "newline" },
+
+      {
+        "text": "Het legioen laat de leeuw niet in z'n hemd staan",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      { "text": "Het land waar we elke dag ", "type": "text" },
+      { "type": "blank", "answer": "hopen" },
+      { "text": " op wat beter weer", "type": "text" },
+      { "type": "newline" },
+
+      {
+        "text": "Die ",
+        "type": "text"
+      },
+      {
+        "text": "Piet Paulusma",
+        "type": "text",
+        "fact": "Piet Paulusma was een bekende Nederlandse weerman, geliefd om zijn Friese accent en karakteristieke weerpraatjes op televisie."
+      },
+      { "text": " ", "type": "text" },
+      { "type": "blank", "answer": "vertrouw" },
+      { "text": " ik voor geen meter meer", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "Het land dat vrij ", "type": "text" },
+      { "type": "blank", "answer": "is" },
+      { "text": " sinds '45", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "Het land waar ik ", "type": "text" },
+      { "type": "blank", "answer": "blijf" },
+      { "text": ", ", "type": "text" },
+      { "type": "blank", "answer": "vind" },
+      { "text": " het er heerlijk", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "Eerlijk", "type": "text" },
+      { "type": "newline" }
+    ],
+    [
+      { "text": "Kom uit het land waar je doorheen ", "type": "text" },
+      { "type": "blank", "answer": "rijdt" },
+      { "text": " in 3 uurtjes", "type": "text" },
+      { "type": "newline" },
+
+      {
+        "text": "Met een ander dialect elke 10 minuutjes",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Kom uit het land waar op papier een plek voor iedereen ",
+        "type": "text"
+      },
+      { "type": "blank", "answer": "is" },
+      { "type": "newline" },
+
+      {
+        "text": "En XTC export nummer 1 is",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      { "text": "Kom uit het land waar ", "type": "text" },
+      {
+        "text": "André Hazes",
+        "type": "text",
+        "fact": "André Hazes was een beroemde Nederlandse zanger van het levenslied, bekend om zijn emotionele muziek en populariteit in cafés en stadions."
+      },
+      {
+        "text": " over 100 jaar in elk café nog steeds de baas ",
+        "type": "text"
+      },
+      { "type": "blank", "answer": "is" }
+    ],
+
+    [
+      {
+        "text": "Kom uit het land waar Peter, Gert-Jan, Reamon en Junte, ",
+        "type": "text"
+      },
+      { "text": "Frans, Bart en Ali de game runnen", "type": "text" },
+      { "type": "newline" },
+
+      {
+        "text": "Kom uit het land waar hip-hop een kind van 30 is",
+        "type": "text"
+      },
+      { "type": "newline" },
+      { "text": "En je ", "type": "text" },
+      { "type": "blank", "answer": "mag" },
+      { "text": " zelf in gaan vullen hoe vet dat is", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "Het land waar als je rijk ", "type": "text" },
+      { "type": "blank", "answer": "wordt" },
+      { "text": " je zoveel ", "type": "text" },
+      { "type": "blank", "answer": "inlevert" },
+      { "type": "newline" },
+
+      { "text": " Dat je bij jezelf ", "type": "text" },
+      { "type": "blank", "answer": "denkt" },
+      { "text": ": \"Hoeveel zin ", "type": "text" },
+      { "type": "blank", "answer": "heeft" },
+      { "text": " het?\"", "type": "text" },
+      { "type": "newline" },
+      { "type": "newline" },
+
+      { "text": "Het land waar prostitutie en blowen ", "type": "text" },
+      { "type": "blank", "answer": "mag" },
+      { "type": "newline" },
+
+      { "text": " Het land van ", "type": "text" },
+      {
+        "text": "Sinterklaas",
+        "type": "text",
+        "fact": "Sinterklaas is een jaarlijkse Nederlandse traditie waarbij Sinterklaas en zijn Pieten cadeaus brengen voor kinderen op 5 december."
+      },
+      { "text": " en Koninginnedag", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "Dit is het land waar ik ", "type": "text" },
+      { "type": "blank", "answer": "verloren" },
+      { "text": " ", "type": "text" },
+      { "type": "blank", "answer": "heb" },
+      { "text": ", bedrogen ben", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "Kom uit het land waar ik geboren en ", "type": "text" },
+      { "type": "blank", "answer": "getogen" },
+      { "text": " ", "type": "text" },
+      { "type": "blank", "answer": "ben" },
+      { "type": "newline" }
+    ],
+    [
+      {
+        "text": "Kom uit het land met de meeste culturen per vierkante meter",
+        "type": "text"
+      },
+      { "type": "newline" },
+      { "text": "Maar men ", "type": "text" },
+      { "type": "blank", "answer": "is" },
+      { "text": " bang om bij de buren te gaan eten", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "Uh, en integratie is een schitterend woord", "type": "text" },
+      { "type": "newline" },
+      {
+        "text": "Maar shit, 't is fucking bitter wanneer niemand het ",
+        "type": "text"
+      },
+      { "type": "blank", "answer": "hoort" },
+      { "type": "newline" },
+      { "type": "newline" },
+
+      { "text": "Ik ", "type": "text" },
+      { "type": "blank", "answer": "deel" },
+      {
+        "text": " m'n land met Turken en Marokkanen, Antillianen, Molukkers, en Surinamers",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      {
+        "text": "Het land waar we samen veels te veel opkroppen",
+        "type": "text"
+      },
+      { "type": "newline" },
+      { "text": "En wereldwijd ‘gerepresent’ zijn door ", "type": "text" },
+      {
+        "text": "Harry Potter",
+        "type": "text",
+        "fact": "Balkenende werd vaak vergeleken met Harry Potter vanwege zijn bril en zijn uiterlijk."
+      },
+      { "text": " ", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "Het land waarin apartheid, internationaal", "type": "text" },
+      { "type": "newline" },
+      {
+        "text": "Het meest bekende woord is uit de Nederlandse taal",
+        "type": "text"
+      },
+      { "type": "newline" },
+
+      { "text": "Kom uit het land dat ", "type": "text" },
+      { "type": "blank", "answer": "tikt" },
+      { "text": " als een tijdbom", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "Het land dat ", "type": "text" },
+      { "type": "blank", "answer": "eet" },
+      { "text": " om 6 uur en ook nog eens op tijd ", "type": "text" },
+      { "type": "blank", "answer": "komt" },
+      { "type": "newline" },
+
+      { "text": "Dit is het land waar ik ", "type": "text" },
+      { "type": "blank", "answer": "zal" },
+      { "text": " overwinnen aan het einde", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "Totdat je deze ", "type": "text" },
+      { "type": "blank", "answer": "meezingt" },
+      { "text": " aan de ArenA-lijnen", "type": "text" },
+      { "type": "newline" },
+
+      { "text": "En tot die tijd zal ik schijnen, ik ", "type": "text" },
+      { "type": "blank", "answer": "heb" },
+      { "text": " m'n hart ", "type": "text" },
+      { "type": "blank", "answer": "verpand" },
+      { "type": "newline" },
+      { "text": " Dit is voor Nederland, Baas B, Lange Frans", "type": "text" }
+    ]
+  ],
+  "youtube": "https://www.youtube.com/watch?v=yayMuZxlttc"
+}

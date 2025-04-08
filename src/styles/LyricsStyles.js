@@ -182,7 +182,7 @@ export const LyricsContainer = styled.div`
 export const BlankInput = styled.input`
   padding: 6px 8px;
   margin: 0 6px;
-  font-size: 18px;
+  font-size: 16px;
   border: 2px solid #ccc;
   border-radius: 6px;
   text-align: center;
@@ -203,7 +203,7 @@ export const BlankInput = styled.input`
     `}
 
     @media (max-width: 768px) {
-    font-size: 14px;
+    font-size: 16px;
     padding: 4px 6px;
     width: 80px;
   }

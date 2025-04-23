@@ -29,6 +29,8 @@ const Container = styled.div`
   text-align: center;
   padding: 2rem;
   min-height: 100vh;
+  border-top: 10px solid #ae1c28;
+  border-bottom: 10px solid #21468b;
 
   @media (max-width: 768px) {
     padding: 1rem;

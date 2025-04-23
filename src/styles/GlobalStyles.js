@@ -1,15 +1,20 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
-  html {
-  font-size: 62.5%;
-  }
-
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+  }
+  
+  html {
+  font-size: 62.5%;
+  }
+
+  html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
   }
 
   body {

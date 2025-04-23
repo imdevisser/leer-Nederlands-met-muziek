@@ -34,7 +34,8 @@ const Container = styled.div`
     padding: 1rem;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 390px) {
     padding: 0.5rem;
+    max-width: 100vw;
   }
 `;

@@ -42,7 +42,9 @@
         "answer": "hielden",
         "hint": "verleden tijd van 'houden'"
       },
-      { "type": "text", "text": " alle mensen van elkaar. " }
+      { "type": "text", "text": " alle mensen van elkaar." },
+      { "type": "newline" },
+      { "type": "newline" }
     ],
     [
       { "type": "text", "text": "Ieder huis " },
@@ -81,7 +83,9 @@
       {
         "type": "text",
         "text": " niet hoeven leren wat 'ie eigenlijk niet snapt."
-      }
+      },
+      { "type": "newline" },
+      { "type": "newline" }
     ],
     [
       { "type": "text", "text": "Als hij " },
@@ -123,7 +127,9 @@
 
       { "type": "text", "text": "Dan " },
       { "type": "blank", "answer": "hielden" },
-      { "type": "text", "text": " alle mensen van elkaar. " }
+      { "type": "text", "text": " alle mensen van elkaar. " },
+      { "type": "newline" },
+      { "type": "newline" }
     ],
     [
       { "type": "text", "text": "Zijn vriendje " },

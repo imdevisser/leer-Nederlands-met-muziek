@@ -88,8 +88,9 @@
 
       {
         "type": "text",
-        "text": "Plunderen de wereld, noemen het De Gouden Eeuw"
+        "text": "Plunderen de wereld, noemen het De Gouden Eeuw."
       },
+      { "type": "newline" },
       { "type": "newline" },
 
       {
@@ -156,6 +157,7 @@
         "type": "text",
         "text": " na vakantie"
       },
+      { "type": "newline" },
       { "type": "newline" }
     ],
     [
@@ -284,6 +286,7 @@
         "type": "blank",
         "answer": "hoort"
       },
+      { "type": "newline" },
       { "type": "newline" }
     ],
     [
@@ -334,6 +337,7 @@
       { "type": "newline" },
 
       { "type": "text", "text": "Eerlijk" },
+      { "type": "newline" },
       { "type": "newline" }
     ],
     [

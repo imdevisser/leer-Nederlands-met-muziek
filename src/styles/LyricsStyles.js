@@ -106,9 +106,11 @@ export const BlankWrapper = styled.span`
   }
 `;
 
-export const BlankInput = styled.input`
+export const BlankInput = styled.input.attrs({
+  autoCapitalize: "off",
+  autoCorrect: "off",
+})`
   padding: 0.6rem 0.8rem;
-  // margin: 0 0.6rem;
   font-size: 1.8rem;
   border: 0.2rem solid #ccc;
   border-radius: 0.6rem;
@@ -129,7 +131,7 @@ export const BlankInput = styled.input`
       background-color: #f9e0e0;
     `}
 
-    @media (max-width: 768px) {
+  @media (max-width: 768px) {
     font-size: 16px;
     padding: 0.4rem 0.6rem;
     width: 8rem;

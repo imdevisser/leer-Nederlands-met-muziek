@@ -1,92 +1,52 @@
 import styled from "styled-components";
 
 export const VideoWrapper = styled.div`
-  margin-top: 32px;
-  max-width: 350px;
+  margin-top: 3.2rem;
+  max-width: 35rem;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 12px;
+  border-radius: 1.2rem;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.1);
 
   @media (max-width: 768px) {
-    max-width: 100%;
-    margin-top: 16px;
+    max-width: 50%;
+    margin-top: 1.6rem;
+  }
+`;
+
+export const LyricsContainer = styled.div`
+  // background-color: #fffaf0;
+  background: linear-gradient(90deg, #ae1c28, #21468b);
+  color: #fffaf0;
+  padding: 2.4rem;
+  border-radius: 1.2rem;
+  max-width: 120rem;
+  margin: 4rem auto;
+  font-size: 1.8rem;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+    font-size: 1.6rem;
+  }
+`;
+
+export const Verse = styled.div`
+  line-height: 2.5;
+
+  @media (max-width: 768px) {
+    margin-bottom: 3rem;
   }
 `;
 
 export const Instruction = styled.p`
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
-  color: #333;
-  margin-bottom: 10px;
+  color: #fffaf0;
   text-align: center;
 
   @media (max-width: 768px) {
-    font-size: 16px;
-  }
-`;
-
-export const BlankWrapper = styled.span`
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-
-  @media (max-width: 768px) {
-    gap: 2px;
-  }
-`;
-
-export const HintWrapper = styled.span`
-  position: relative;
-  display: inline-block;
-`;
-
-export const HintIcon = styled.button`
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: #888;
-  font-size: 1rem;
-  padding: 0;
-
-  &:hover {
-    color: #000;
-  }
-`;
-
-export const Tooltip = styled.span`
-  visibility: hidden;
-  opacity: 0;
-  width: max-content;
-  max-width: 220px;
-  background-color: #333;
-  color: #fff;
-  font-size: 0.75rem;
-  text-align: left;
-  border-radius: 6px;
-  padding: 6px 8px;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%; /* Show above icon */
-  left: 50%;
-  transform: translateX(-50%);
-  transition: opacity 0.2s ease-in-out;
-
-  ${HintWrapper}:hover & {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  &::after {
-    content: "";
-    position: absolute;
-    top: 100%; /* Arrow pointing down */
-    left: 50%;
-    transform: translateX(-50%);
-    border-width: 5px;
-    border-style: solid;
-    border-color: #333 transparent transparent transparent;
+    font-size: 1.6rem;
   }
 `;
 
@@ -97,22 +57,31 @@ export const FactHover = styled.span`
   transform: translateY(-4px);
   background-color: #f1f1f1;
   color: #333;
-  font-size: 0.8rem;
-  padding: 8px 10px;
-  border-radius: 4px;
+  font-size: 1.8rem;
+  padding: 0.8rem 1rem;
+  border-radius: 0.4rem;
   white-space: normal;
-  max-width: 400px;
+  max-width: 40rem;
   width: max-content;
 
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.1);
 
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.2s ease;
   z-index: 10;
 
+  /* Make sure it stays inside the viewport */
+  overflow-wrap: break-word;
+  word-break: break-word;
+  box-sizing: border-box;
+
+  /* Keep it from overflowing screen on mobile */
   @media (max-width: 768px) {
-    font-size: 0.7rem;
+    font-size: 1.2rem;
+    max-width: 90vw;
+    left: 50%;
+    transform: translateX(-50%) translateY(-4px);
   }
 `;
 
@@ -127,64 +96,22 @@ export const FactHoverWrapper = styled.span`
   }
 `;
 
-export const CheckAnswersButton = styled.button`
-  padding: 10px 20px;
-  background-color: #4caf50;
-  color: white;
-  font-size: 16px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  margin-top: 20px;
-
-  &:hover {
-    background-color: #45a049;
-  }
-
-  &:focus {
-    outline: none;
-  }
+export const BlankWrapper = styled.span`
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
 
   @media (max-width: 768px) {
-    padding: 8px 16px;
-    font-size: 14px;
-  }
-`;
-
-export const StyledBr = styled.br`
-  line-height: 2;
-  margin-bottom: 8px;
-`;
-
-export const Verse = styled.div`
-  margin-bottom: 60px;
-  line-height: 2;
-
-  @media (max-width: 768px) {
-    margin-bottom: 30px;
-  }
-`;
-
-export const LyricsContainer = styled.div`
-  background-color: #fffaf0;
-  padding: 24px;
-  border-radius: 12px;
-  max-width: 1200px;
-  margin: 40px auto;
-  font-size: 20px;
-
-  @media (max-width: 768px) {
-    padding: 16px;
-    font-size: 16px;
+    gap: 0.2rem;
   }
 `;
 
 export const BlankInput = styled.input`
-  padding: 6px 8px;
-  margin: 0 6px;
-  font-size: 16px;
-  border: 2px solid #ccc;
-  border-radius: 6px;
+  padding: 0.6rem 0.8rem;
+  // margin: 0 0.6rem;
+  font-size: 1.8rem;
+  border: 0.2rem solid #ccc;
+  border-radius: 0.6rem;
   text-align: center;
   transition: border-color 0.3s;
 
@@ -203,8 +130,91 @@ export const BlankInput = styled.input`
     `}
 
     @media (max-width: 768px) {
-    font-size: 16px;
-    padding: 4px 6px;
-    width: 80px;
+    font-size: 1.6rem;
+    padding: 0.4rem 0.6rem;
+    width: 8rem;
   }
+`;
+
+export const HintWrapper = styled.span`
+  position: relative;
+  display: inline-block;
+`;
+
+export const HintIcon = styled.button`
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+  font-size: 2rem;
+  padding: 0;
+
+  &:hover {
+    color: #000;
+  }
+`;
+
+export const Tooltip = styled.span`
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  max-width: 22rem;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: left;
+  border-radius: 0.6rem;
+  padding: 0.6rem 0.8rem;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Show above icon */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.2s ease-in-out;
+
+  ${HintWrapper}:hover & {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* Arrow pointing down */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 0.5rem;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+  }
+`;
+
+export const CheckAnswersButton = styled.button`
+  padding: 2rem 3rem;
+  background-color: #ff9f00;
+  color: white;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-bottom: 6rem;
+
+  &:hover {
+    background-color: #ff9f00;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0.8rem 1.6rem;
+    font-size: 1.4rem;
+  }
+`;
+
+export const StyledBr = styled.br`
+  line-height: 2;
+  margin-bottom: 0.8rem;
 `;

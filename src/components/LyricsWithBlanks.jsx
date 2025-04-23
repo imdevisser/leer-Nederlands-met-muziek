@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ReactPlayer from "react-player";
 
 import song1 from "../data/songs/song1.json";
@@ -32,6 +32,12 @@ export default function LyricsWithBlanks({ selected }) {
   const [feedback, setFeedback] = useState({});
 
   const songData = songs[selected];
+
+  useEffect(() => {
+    // Reset state when a new song is selected
+    setInputs({});
+    setFeedback({});
+  }, [selected]);
 
   if (!songData) return;
 
@@ -77,7 +83,8 @@ export default function LyricsWithBlanks({ selected }) {
                 if (part.fact) {
                   return (
                     <FactHoverWrapper key={index} tabIndex="0">
-                      <em>{part.text}</em>
+                      {/* <em>{part.text}</em> */}
+                      <span>{part.text} ℹ️</span>
                       <FactHover>{part.fact}</FactHover>
                     </FactHoverWrapper>
                   );

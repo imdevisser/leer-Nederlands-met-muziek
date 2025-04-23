@@ -31,24 +31,25 @@ export default function SearchBar({ selected, setSelected }) {
 
 const Dropdown = styled.div`
   p {
-    line-height: 50px;
+    line-height: 5rem;
   }
 
   @media (max-width: 768px) {
     width: 100%;
-    padding: 0 10px;
+    padding: 0 1rem;
   }
 `;
 
 const Label = styled.label`
-  margin-bottom: 8px;
+  margin-bottom: 0.8rem;
+  font-size: 2rem;
   display: block;
   font-weight: 600;
-  line-height: 50px;
+  line-height: 5rem;
 
   @media (max-width: 768px) {
-    font-size: 16px;
-    line-height: 40px;
+    font-size: 1.6rem;
+    line-height: 4rem;
   }
 `;
 
@@ -63,9 +64,9 @@ const Wrapper = styled.div`
 `;
 
 const Select = styled.select`
-  padding: 10px 16px;
-  font-size: 16px;
-  border-radius: 8px;
+  padding: 1rem 1.6rem;
+  font-size: 1.6rem;
+  border-radius: 0.8rem;
   border: 1px solid #ccc;
   background: white;
   appearance: none;
@@ -83,7 +84,7 @@ const Select = styled.select`
   }
 
   @media (max-width: 768px) {
-    font-size: 14px;
-    padding: 8px 12px;
+    font-size: 1.4rem;
+    padding: 0.8rem 1.2rem;
   }
 `;

@@ -5,199 +5,190 @@
   "lyrics": [
     [
       {
-        "text": "Luister goed naar het liedje. Vul alle werkwoorden in het imperfectum in.",
-        "type": "instruction"
+        "type": "instruction",
+        "text": "Luister goed naar het liedje. Vul alle werkwoorden in het imperfectum in."
       },
       { "type": "newline" },
 
-      { "text": "Als hij ", "type": "text" },
+      { "type": "text", "text": "Als hij " },
       {
-        "text": "kon",
         "type": "blank",
         "answer": "kon"
       },
-      { "text": " toveren, ", "type": "text" },
+      { "type": "text", "text": " toveren, " },
       {
-        "text": "kwam",
         "type": "blank",
         "answer": "kwam",
         "hint": "verleden tijd van 'komen'"
       },
-      { "text": " alles voor elkaar", "type": "text" },
+      { "type": "text", "text": " alles voor elkaar" },
       { "type": "newline" },
 
-      { "text": "Als hij ", "type": "text" },
-      { "text": "kon", "type": "blank", "answer": "kon" },
-      { "text": " toveren, ", "type": "text" },
-      { "text": "was", "type": "blank", "answer": "was" },
-      { "text": " niemand de sigaar", "type": "text" },
+      { "type": "text", "text": "Als hij " },
+      { "type": "blank", "answer": "kon" },
+      { "type": "text", "text": " toveren, " },
+      { "type": "blank", "answer": "was" },
+      { "type": "text", "text": " niemand de sigaar" },
       { "type": "newline" },
 
-      { "text": "Als hij ", "type": "text" },
-      { "text": "kon", "type": "blank", "answer": "kon" },
-      { "text": " toveren, (x3) ", "type": "text" },
+      { "type": "text", "text": "Als hij " },
+      { "type": "blank", "answer": "kon" },
+      { "type": "text", "text": " toveren, (x3) " },
       { "type": "newline" },
 
-      { "text": "Dan ", "type": "text" },
+      { "type": "text", "text": "Dan " },
       {
-        "text": "hielden",
         "type": "blank",
         "answer": "hielden",
         "hint": "verleden tijd van 'houden'"
       },
-      { "text": " alle mensen van elkaar. ", "type": "text" }
+      { "type": "text", "text": " alle mensen van elkaar. " }
     ],
     [
-      { "text": "Ieder huis ", "type": "text" },
-      { "text": "had", "type": "blank", "answer": "had" },
-      { "text": " honderd kamers, ", "type": "text" },
+      { "type": "text", "text": "Ieder huis " },
+      { "type": "blank", "answer": "had" },
+      { "type": "text", "text": " honderd kamers, " },
       { "type": "newline" },
 
-      { "text": "in elke kamer ", "type": "text" },
+      { "type": "text", "text": "in elke kamer " },
       {
-        "text": "stond",
         "type": "blank",
         "answer": "stond",
         "hint": "verleden tijd van 'staan'"
       },
-      { "text": " tv. ", "type": "text" },
+      { "type": "text", "text": " tv. " },
       { "type": "newline" },
 
-      { "text": "En zijn ouders ", "type": "text" },
-      { "text": "bleven", "type": "blank", "answer": "bleven" },
-      { "text": " eeuwig leven en hij ", "type": "text" },
-      { "text": "leefde", "type": "blank", "answer": "leefde" },
-      { "text": " met ze mee.", "type": "text" },
+      { "type": "text", "text": "En zijn ouders " },
+      { "type": "blank", "answer": "bleven" },
+      { "type": "text", "text": " eeuwig leven en hij " },
+      { "type": "blank", "answer": "leefde" },
+      { "type": "text", "text": " met ze mee." },
       { "type": "newline" },
 
-      { "text": "De rivier ", "type": "text" },
-      { "text": "was", "type": "blank", "answer": "was" },
+      { "type": "text", "text": "De rivier " },
+      { "type": "blank", "answer": "was" },
       {
-        "text": " niet van water, maar van sinaasappelsap.",
-        "type": "text"
+        "type": "text",
+        "text": " niet van water, maar van sinaasappelsap."
       },
       { "type": "newline" },
       {
-        "text": "En hij ",
-        "type": "text"
+        "type": "text",
+        "text": "En hij "
       },
-      { "text": "zou", "type": "blank", "answer": "zou" },
+      { "type": "blank", "answer": "zou" },
       {
-        "text": " niet hoeven leren wat 'ie eigenlijk niet snapt.",
-        "type": "text"
+        "type": "text",
+        "text": " niet hoeven leren wat 'ie eigenlijk niet snapt."
       }
     ],
     [
-      { "text": "Als hij ", "type": "text" },
-      { "text": "kon", "type": "blank", "answer": "kon" },
-      { "text": " toveren, ", "type": "text" },
-      { "text": "kwam", "type": "blank", "answer": "kwam" },
-      { "text": " alles voor elkaar", "type": "text" },
+      { "type": "text", "text": "Als hij " },
+      { "type": "blank", "answer": "kon" },
+      { "type": "text", "text": " toveren, " },
+      { "type": "blank", "answer": "kwam" },
+      { "type": "text", "text": " alles voor elkaar" },
       { "type": "newline" },
 
-      { "text": "(En niemand ", "type": "text" },
+      { "type": "text", "text": "(En niemand " },
       {
-        "text": "leed",
         "type": "blank",
         "answer": "leed",
         "hint": "verleden tijd van 'lijden'"
       },
-      { "text": " er honger) ", "type": "text" },
+      { "type": "text", "text": " er honger) " },
       { "type": "newline" },
 
-      { "text": "Als hij ", "type": "text" },
-      { "text": "kon", "type": "blank", "answer": "kon" },
-      { "text": " toveren, dan ", "type": "text" },
-      { "text": "werd", "type": "blank", "answer": "werd" },
-      { "text": " geen mens te zwaar", "type": "text" },
+      { "type": "text", "text": "Als hij " },
+      { "type": "blank", "answer": "kon" },
+      { "type": "text", "text": " toveren, dan " },
+      { "type": "blank", "answer": "werd" },
+      { "type": "text", "text": " geen mens te zwaar" },
       { "type": "newline" },
 
-      { "text": "(En iedereen die ", "type": "text" },
+      { "type": "text", "text": "(En iedereen die " },
       {
-        "text": "zong",
         "type": "blank",
         "answer": "zong",
         "hint": "verleden tijd van 'zingen'"
       },
-      { "text": " er) ", "type": "text" },
+      { "type": "text", "text": " er) " },
       { "type": "newline" },
 
-      { "text": "Als hij ", "type": "text" },
-      { "text": "kon", "type": "blank", "answer": "kon" },
-      { "text": " toveren, (x3) ", "type": "text" },
+      { "type": "text", "text": "Als hij " },
+      { "type": "blank", "answer": "kon" },
+      { "type": "text", "text": " toveren, (x3) " },
       { "type": "newline" },
 
-      { "text": "Dan ", "type": "text" },
-      { "text": "hielden", "type": "blank", "answer": "hielden" },
-      { "text": " alle mensen van elkaar. ", "type": "text" }
+      { "type": "text", "text": "Dan " },
+      { "type": "blank", "answer": "hielden" },
+      { "type": "text", "text": " alle mensen van elkaar. " }
     ],
     [
-      { "text": "Zijn vriendje ", "type": "text" },
-      { "text": "zou", "type": "blank", "answer": "zou" },
-      { "text": " ineens begrijpen, ", "type": "text" },
+      { "type": "text", "text": "Zijn vriendje " },
+      { "type": "blank", "answer": "zou" },
+      { "type": "text", "text": " ineens begrijpen, " },
       { "type": "newline" },
 
-      { "text": "waarom hij ruzie met hem ", "type": "text" },
+      { "type": "text", "text": "waarom hij ruzie met hem " },
       {
-        "text": "kreeg",
         "type": "blank",
         "answer": "kreeg",
         "hint": "verleden tijd van 'krijgen'"
       },
       { "type": "newline" },
 
-      { "text": "En iedereen ", "type": "text" },
-      { "text": "zou", "type": "blank", "answer": "zou" },
-      { "text": " voor hem buigen, ", "type": "text" },
+      { "type": "text", "text": "En iedereen " },
+      { "type": "blank", "answer": "zou" },
+      { "type": "text", "text": " voor hem buigen, " },
       { "type": "newline" },
 
-      { "text": "als hij de troon ", "type": "text" },
+      { "type": "text", "text": "als hij de troon " },
       {
-        "text": "besteeg",
         "type": "blank",
         "answer": "besteeg",
         "hint": "verleden tijd van 'bestijgen'"
       },
       { "type": "newline" },
 
-      { "text": "En 's winters ", "type": "text" },
+      { "type": "text", "text": "En 's winters " },
       {
-        "text": "lag",
         "type": "blank",
         "answer": "lag",
         "hint": "verleden tijd van 'liggen'"
       },
-      { "text": " er altijd sneeuw, en ", "type": "text" },
-      { "text": "was", "type": "blank", "answer": "was" },
-      { "text": " het lekker warm, ", "type": "text" },
+      { "type": "text", "text": " er altijd sneeuw, en " },
+      { "type": "blank", "answer": "was" },
+      { "type": "text", "text": " het lekker warm, " },
       { "type": "newline" },
 
-      { "text": "En niemand ", "type": "text" },
-      { "text": "werd", "type": "blank", "answer": "werd" },
-      { "text": " er rijk geboren, en niemand ", "type": "text" },
-      { "text": "werd", "type": "blank", "answer": "werd" },
-      { "text": " er arm.", "type": "text" },
+      { "type": "text", "text": "En niemand " },
+      { "type": "blank", "answer": "werd" },
+      { "type": "text", "text": " er rijk geboren, en niemand " },
+      { "type": "blank", "answer": "werd" },
+      { "type": "text", "text": " er arm." },
       { "type": "newline" },
       { "type": "newline" },
 
-      { "text": "Refrein x1", "type": "text" },
+      { "type": "text", "text": "Refrein x1" },
       { "type": "newline" },
 
       {
-        "text": "(Maar voor een toverspreuk van kwaliteit ben je zomaar duizend gulden kwijt. En naar een beetje toverboek ben je toch wel vijftig jaar op zoek. En de hele cursus tovenaar duurt honderdvijfentwintig jaar)",
-        "type": "text"
+        "type": "text",
+        "text": "(Maar voor een toverspreuk van kwaliteit ben je zomaar duizend gulden kwijt. En naar een beetje toverboek ben je toch wel vijftig jaar op zoek. En de hele cursus tovenaar duurt honderdvijfentwintig jaar)"
       },
       { "type": "newline" },
 
       {
-        "text": "Dat brengt hij allemaal niet op, ik denk dat hij voor 't begin al stopt",
-        "type": "text"
+        "type": "text",
+        "text": "Dat brengt hij allemaal niet op, ik denk dat hij voor 't begin al stopt"
       },
-      { "text": "Want zelfs de oma van zijn oma, ", "type": "text" },
-      { "text": "had", "type": "blank", "answer": "had" },
-      { "text": " nooit een tovenaarsdiploma.", "type": "text" },
+      { "type": "text", "text": "Want zelfs de oma van zijn oma, " },
+      { "type": "blank", "answer": "had" },
+      { "type": "text", "text": " nooit een tovenaarsdiploma." },
       { "type": "newline" },
-      { "text": "Refrein x1", "type": "text" }
+      { "type": "text", "text": "Refrein x1" }
     ]
   ],
   "youtube": "https://www.youtube.com/watch?v=iVjPesQO-08"

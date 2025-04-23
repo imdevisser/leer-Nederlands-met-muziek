@@ -5,104 +5,99 @@
   "lyrics": [
     [
       {
-        "text": "Luister naar het volgende lied. Vul de ontbrekende werkwoorden in in de tegenwoordige tijd, het perfectum en het imperfectum.",
-        "type": "instruction"
+        "type": "instruction",
+        "text": "Vul de ontbrekende werkwoorden in in de tegenwoordige tijd, het perfectum en het imperfectum."
       },
       { "type": "newline" },
 
-      { "text": "We konden over alles praten, alles", "type": "text" },
+      { "type": "text", "text": "We konden over alles praten, alles" },
       { "type": "newline" },
 
-      { "text": "Maar alles ", "type": "text" },
+      { "type": "text", "text": "Maar alles " },
       {
-        "text": "ging",
         "type": "blank",
         "answer": "ging",
         "hint": "imperfectum van 'gaan'"
       },
-      { "text": " over de liefde, we ", "type": "text" },
+      { "type": "text", "text": " over de liefde, we " },
       {
-        "text": "vergaten",
         "type": "blank",
         "answer": "vergaten",
         "hint": "imperfectum van 'vergeten'"
       },
-      { "text": " alles.", "type": "text" },
+      { "type": "text", "text": " alles." },
       { "type": "newline" },
 
-      { "text": "In een brief, een sms'je, in een liedje ", "type": "text" },
+      { "type": "text", "text": "In een brief, een sms'je, in een liedje " },
       {
-        "text": "schreef",
         "type": "blank",
         "answer": "schreef",
         "hint": "imperfectum van 'schrijven'"
       },
-      { "text": " ik", "type": "text" },
+      { "type": "text", "text": " ik" },
       { "type": "newline" },
 
-      { "text": "Ik ", "type": "text" },
-      { "text": "zou", "type": "blank", "answer": "zou" },
-      { "text": " alles voor je doen, een voor die liefde ", "type": "text" },
-      { "text": "leef", "type": "blank", "answer": "leef" },
-      { "text": " ik", "type": "text" },
+      { "type": "text", "text": "Ik " },
+      { "type": "blank", "answer": "zou" },
+      { "type": "text", "text": " alles voor je doen, een voor die liefde " },
+      { "type": "blank", "answer": "leef" },
+      { "type": "text", "text": " ik" },
       { "type": "newline" },
 
-      { "text": "En die liefde ", "type": "text" },
-      { "text": "kreeg", "type": "blank", "answer": "kreeg" },
-      { "text": " ik, en vaak in overmate.", "type": "text" },
+      { "type": "text", "text": "En die liefde " },
+      { "type": "blank", "answer": "kreeg" },
+      { "type": "text", "text": " ik, en vaak in overmate." },
       { "type": "newline" },
 
       {
-        "text": "Je kon de drempels van het leven aan me overlaten.",
-        "type": "text"
+        "type": "text",
+        "text": "Je kon de drempels van het leven aan me overlaten."
       },
       { "type": "newline" },
 
-      { "text": "Je ", "type": "text" },
+      { "type": "text", "text": "Je " },
       {
-        "text": "zag",
         "type": "blank",
         "answer": "zag",
         "hint": "imperfectum van 'zien'"
       },
       {
-        "text": " die meiden haten, want ik had mijn superheld",
-        "type": "text"
+        "type": "text",
+        "text": " die meiden haten, want ik had mijn superheld"
       },
       { "type": "newline" },
 
-      { "text": "Je ", "type": "text" },
-      { "text": "had", "type": "blank", "answer": "had" },
+      { "type": "text", "text": "Je " },
+      { "type": "blank", "answer": "had" },
       {
-        "text": " je vrienden net te vaak over mij verteld.",
-        "type": "text"
+        "type": "text",
+        "text": " je vrienden net te vaak over mij verteld."
       },
       { "type": "newline" }
     ],
     [
       {
-        "text": "Nu staren we samen naar de tafel met de mondjes dicht",
-        "type": "text"
+        "type": "text",
+        "text": "Nu staren we samen naar de tafel met de mondjes dicht"
       },
       { "type": "newline" },
 
       {
-        "text": "Blikken die vanzelf spreken in ons gezicht",
-        "type": "text"
+        "type": "text",
+        "text": "Blikken die vanzelf spreken in ons gezicht"
       },
       { "type": "newline" },
 
       {
-        "text": "Ik ",
-        "type": "text"
+        "type": "text",
+        "text": "Ik "
       },
-      { "text": "heb", "type": "blank", "answer": "heb" },
+      { "type": "blank", "answer": "heb" },
       {
-        "text": " het overgrote deel van alles ",
-        "type": "text"
+        "type": "text",
+        "text": " het overgrote deel van alles "
       },
       {
-        "text": "aangericht",
         "type": "blank",
         "answer": "aangericht",
         "hint": "perfectum van 'aanrichten'"
@@ -110,255 +105,252 @@
       { "type": "newline" },
 
       {
-        "text": "Maar ik rij te lang in deze tunnel en ik ",
-        "type": "text"
+        "type": "text",
+        "text": "Maar ik rij te lang in deze tunnel en ik "
       },
-      { "text": "zie", "type": "blank", "answer": "zie" },
+      { "type": "blank", "answer": "zie" },
       {
-        "text": " geen licht.",
-        "type": "text"
-      },
-      { "type": "newline" },
-
-      {
-        "text": "Dus ",
-        "type": "text"
-      },
-      { "text": "doe", "type": "blank", "answer": "doe" },
-      {
-        "text": " je ogen dicht, voor onze laatste set ",
-        "type": "text"
+        "type": "text",
+        "text": " geen licht."
       },
       { "type": "newline" },
 
       {
-        "text": "En denk terug aan het kleine huisje met het kleine bed, shit",
-        "type": "text"
+        "type": "text",
+        "text": "Dus "
+      },
+      { "type": "blank", "answer": "doe" },
+      {
+        "type": "text",
+        "text": " je ogen dicht, voor onze laatste set "
       },
       { "type": "newline" },
 
       {
-        "text": "Maar morgen is de pijn terug ",
-        "type": "text"
+        "type": "text",
+        "text": "En denk terug aan het kleine huisje met het kleine bed, shit"
       },
       { "type": "newline" },
 
-      { "text": "Staan", "type": "blank", "answer": "Staan" },
       {
-        "text": " we uren op de halte en ",
-        "type": "text"
+        "type": "text",
+        "text": "Maar morgen is de pijn terug "
       },
-      { "text": "rijdt", "type": "blank", "answer": "rijdt" },
+      { "type": "newline" },
+
+      { "type": "blank", "answer": "Staan" },
       {
-        "text": " de trein terug",
-        "type": "text"
+        "type": "text",
+        "text": " we uren op de halte en "
+      },
+      { "type": "blank", "answer": "rijdt" },
+      {
+        "type": "text",
+        "text": " de trein terug"
       },
       { "type": "newline" }
     ],
     [
       {
-        "text": "Het ",
-        "type": "text"
+        "type": "text",
+        "text": "Het "
       },
-      { "text": "duurt", "type": "blank", "answer": "duurt" },
+      { "type": "blank", "answer": "duurt" },
       {
-        "text": " te lang, we ",
-        "type": "text"
+        "type": "text",
+        "text": " te lang, we "
       },
-      { "text": "staan", "type": "blank", "answer": "staan" },
+      { "type": "blank", "answer": "staan" },
       {
-        "text": " hier al een tijdje.",
-        "type": "text"
-      },
-      { "type": "newline" },
-
-      {
-        "text": "Dus voor de laatste keer: 'Het spijt me' ",
-        "type": "text"
+        "type": "text",
+        "text": " hier al een tijdje."
       },
       { "type": "newline" },
 
       {
-        "text": "Het ",
-        "type": "text"
-      },
-      { "text": "duurt", "type": "blank", "answer": "duurt" },
-      {
-        "text": " te lang, woah-ooh",
-        "type": "text"
+        "type": "text",
+        "text": "Dus voor de laatste keer: 'Het spijt me' "
       },
       { "type": "newline" },
 
       {
-        "text": "Het ",
-        "type": "text"
+        "type": "text",
+        "text": "Het "
       },
-      { "text": "duurt", "type": "blank", "answer": "duurt" },
+      { "type": "blank", "answer": "duurt" },
       {
-        "text": " te lang",
-        "type": "text"
-      },
-      { "type": "newline" },
-
-      {
-        "text": "We ",
-        "type": "text"
-      },
-      { "text": "staan", "type": "blank", "answer": "staan" },
-      {
-        "text": " stil, wat jij wil, wat jij wil ",
-        "type": "text"
+        "type": "text",
+        "text": " te lang, woah-ooh"
       },
       { "type": "newline" },
 
       {
-        "text": "Het ",
-        "type": "text"
+        "type": "text",
+        "text": "Het "
       },
-      { "text": "duurt", "type": "blank", "answer": "duurt" },
+      { "type": "blank", "answer": "duurt" },
       {
-        "text": " te lang.",
-        "type": "text"
+        "type": "text",
+        "text": " te lang"
+      },
+      { "type": "newline" },
+
+      {
+        "type": "text",
+        "text": "We "
+      },
+      { "type": "blank", "answer": "staan" },
+      {
+        "type": "text",
+        "text": " stil, wat jij wil, wat jij wil "
+      },
+      { "type": "newline" },
+
+      {
+        "type": "text",
+        "text": "Het "
+      },
+      { "type": "blank", "answer": "duurt" },
+      {
+        "type": "text",
+        "text": " te lang."
       },
       { "type": "newline" },
       { "type": "newline" }
     ],
     [
       {
-        "text": "Twee stille mensen aan de tafel, het is geen gezicht",
-        "type": "text"
+        "type": "text",
+        "text": "Twee stille mensen aan de tafel, het is geen gezicht"
       },
       { "type": "newline" },
 
       {
-        "text": "Ik kan die route niet belopen met m'n ogen dicht",
-        "type": "text"
+        "type": "text",
+        "text": "Ik kan die route niet belopen met m'n ogen dicht"
       },
       { "type": "newline" },
 
       {
-        "text": "Je weet precies wat ik ",
-        "type": "text"
+        "type": "text",
+        "text": "Je weet precies wat ik "
       },
-      { "text": "ga", "type": "blank", "answer": "ga" },
+      { "type": "blank", "answer": "ga" },
       {
-        "text": " zeggen, ik weet het ook van jou",
-        "type": "text"
-      },
-      { "type": "newline" },
-
-      {
-        "text": "En op het eind vertel ik vast hoeveel ik van je hou",
-        "type": "text"
+        "type": "text",
+        "text": " zeggen, ik weet het ook van jou"
       },
       { "type": "newline" },
 
       {
-        "text": "En daarna slaan de deuren weer en ",
-        "type": "text"
-      },
-      { "text": "breekt", "type": "blank", "answer": "breekt" },
-      {
-        "text": " er weer een glas",
-        "type": "text"
+        "type": "text",
+        "text": "En op het eind vertel ik vast hoeveel ik van je hou"
       },
       { "type": "newline" },
 
       {
-        "text": "Daarna valt er weer een traan en ",
-        "type": "text"
+        "type": "text",
+        "text": "En daarna slaan de deuren weer en "
       },
-      { "text": "pak", "type": "blank", "answer": "pak" },
+      { "type": "blank", "answer": "breekt" },
       {
-        "text": " ik weer m'n tas",
-        "type": "text"
+        "type": "text",
+        "text": " er weer een glas"
+      },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Daarna valt er weer een traan en " },
+      { "type": "blank", "answer": "pak" },
+      {
+        "type": "text",
+        "text": " ik weer m'n tas"
       },
       { "type": "newline" },
 
       {
-        "text": "En daarna hou ik je weer stevig vast",
-        "type": "text"
+        "type": "text",
+        "text": "En daarna hou ik je weer stevig vast"
       },
       { "type": "newline" },
 
       {
-        "text": "En ",
-        "type": "text"
+        "type": "text",
+        "text": "En "
       },
-      { "text": "leg", "type": "blank", "answer": "leg" },
+      { "type": "blank", "answer": "leg" },
       {
-        "text": " m'n kleren weer terug in de kast",
-        "type": "text"
-      },
-      { "type": "newline" },
-
-      {
-        "text": "ik hou je nog een poosje vast",
-        "type": "text"
+        "type": "text",
+        "text": " m'n kleren weer terug in de kast"
       },
       { "type": "newline" },
 
       {
-        "text": "(Want) dan vergeet je nog hoe boos je was",
-        "type": "text"
+        "type": "text",
+        "text": "ik hou je nog een poosje vast"
       },
       { "type": "newline" },
 
       {
-        "text": "Maar de pijn ",
-        "type": "text"
-      },
-      { "text": "blijft", "type": "blank", "answer": "blijft" },
-      {
-        "text": " zitten, dus het helpt niet",
-        "type": "text"
+        "type": "text",
+        "text": "(Want) dan vergeet je nog hoe boos je was"
       },
       { "type": "newline" },
 
       {
-        "text": "Dus waarschijnlijk is het morgen weer hetzelfde lied",
-        "type": "text"
+        "type": "text",
+        "text": "Maar de pijn "
+      },
+      { "type": "blank", "answer": "blijft" },
+      {
+        "type": "text",
+        "text": " zitten, dus het helpt niet"
       },
       { "type": "newline" },
 
       {
-        "text": "De tekst ",
-        "type": "text"
-      },
-      { "text": "komt", "type": "blank", "answer": "komt" },
-      {
-        "text": " op hetzelfde neer in dezelfde beat",
-        "type": "text"
+        "type": "text",
+        "text": "Dus waarschijnlijk is het morgen weer hetzelfde lied"
       },
       { "type": "newline" },
 
       {
-        "text": "Een soort van gouden verf op een blok verdriet",
-        "type": "text"
+        "type": "text",
+        "text": "De tekst "
+      },
+      { "type": "blank", "answer": "komt" },
+      {
+        "type": "text",
+        "text": " op hetzelfde neer in dezelfde beat"
       },
       { "type": "newline" },
 
       {
-        "text": "Conflicten ",
-        "type": "text"
-      },
-      { "text": "zijn", "type": "blank", "answer": "zijn" },
-      {
-        "text": " normaal, maar het moet ons niet verstikken",
-        "type": "text"
+        "type": "text",
+        "text": "Een soort van gouden verf op een blok verdriet"
       },
       { "type": "newline" },
 
       {
-        "text": "M'n tranen vallen niet, dus laat ik het liedje snikken",
-        "type": "text"
+        "type": "text",
+        "text": "Conflicten "
+      },
+      { "type": "blank", "answer": "zijn" },
+      {
+        "type": "text",
+        "text": " normaal, maar het moet ons niet verstikken"
+      },
+      { "type": "newline" },
+
+      {
+        "type": "text",
+        "text": "M'n tranen vallen niet, dus laat ik het liedje snikken"
       },
       { "type": "newline" },
       { "type": "newline" },
 
       {
-        "text": "Refrein",
-        "type": "text"
+        "type": "text",
+        "text": "Refrein"
       }
     ]
   ],

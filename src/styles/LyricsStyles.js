@@ -130,7 +130,7 @@ export const BlankInput = styled.input`
     `}
 
     @media (max-width: 768px) {
-    font-size: 1.6rem;
+    font-size: 16px;
     padding: 0.4rem 0.6rem;
     width: 8rem;
   }

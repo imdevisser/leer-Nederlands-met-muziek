@@ -42,6 +42,9 @@ const FooterWrapper = styled.footer`
   }
 
   @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 0;
+
     p,
     a {
       font-size: 1rem;
@@ -49,6 +52,8 @@ const FooterWrapper = styled.footer`
   }
 
   @media (max-width: 480px) {
+    flex-direction: column;
+
     p,
     a {
       font-size: 0.9rem;

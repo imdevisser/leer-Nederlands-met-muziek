@@ -32,7 +32,7 @@ const Head = styled.div`
     }
 
     @media (max-width: 480px) {
-      font-size: 3rem;
+      font-size: 4rem;
       line-height: 3.4rem;
       padding: 0.8rem;
     }

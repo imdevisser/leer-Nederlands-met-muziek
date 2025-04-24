@@ -227,6 +227,10 @@ export const AnswerWord = styled.span`
   color #FFE6BD;
   font-size: 3rem;
   margin: 0 2px;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 `;
 
 export const ToggleAnswersButton = styled.button`
@@ -242,5 +246,10 @@ export const ToggleAnswersButton = styled.button`
 
   &:hover {
     background-color: #1a3469;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0.8rem 1.6rem;
+    font-size: 1.4rem;
   }
 `;

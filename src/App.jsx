@@ -17,7 +17,6 @@ function App() {
         <SearchBar selected={selectedSong} setSelected={setSelectedSong} />
         {selectedSong && <LyricsWithBlanks selected={selectedSong} />}
       </Container>
-      <LyricsWithBlanks />
       <Footer />
     </>
   );

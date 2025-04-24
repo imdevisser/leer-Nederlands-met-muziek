@@ -220,3 +220,27 @@ export const StyledBr = styled.br`
   line-height: 2;
   margin-bottom: 0.8rem;
 `;
+
+export const AnswerWord = styled.span`
+  font-weight: bold;
+  text-decoration: underline dotted;
+  color: #888;
+  font-size: 2rem;
+  margin: 0 2px;
+`;
+
+export const ToggleAnswersButton = styled.button`
+  margin: 1.5rem;
+  padding: 1rem 2rem;
+  background-color: #888;
+  color: white;
+  border: none;
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #1a3469;
+  }
+`;

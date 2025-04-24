@@ -2,6 +2,8 @@ import styled from "styled-components";
 import song1 from "../data/songs/song1.json";
 import song2 from "../data/songs/song2.json";
 import song3 from "../data/songs/song3.json";
+import song4 from "../data/songs/song4.json";
+import song5 from "../data/songs/song5.json";
 
 export default function SearchBar({ selected, setSelected }) {
   return (
@@ -14,15 +16,27 @@ export default function SearchBar({ selected, setSelected }) {
           onChange={(e) => setSelected(e.target.value)}
         >
           <option value="">--- Selecteer ⬇️ ---</option>
-          <option value="song1">
-            {song1.artist} - {song1.title}
-          </option>
-          <option value="song2">
-            {song2.artist} - {song2.title}
-          </option>
-          <option value="song3">
-            {song3.artist} - {song3.title}
-          </option>
+
+          <optgroup label="Makkelijk">
+            <option value="song1">
+              {song1.artist} - {song1.title}
+            </option>
+            <option value="song4">
+              {song4.artist} - {song4.title}
+            </option>
+            <option value="song5">
+              {song5.artist} - {song5.title}
+            </option>
+          </optgroup>
+
+          <optgroup label="Moelijk">
+            <option value="song2">
+              {song2.artist} - {song2.title}
+            </option>
+            <option value="song3">
+              {song3.artist} - {song3.title}
+            </option>
+          </optgroup>
         </Select>
       </Wrapper>
     </Dropdown>

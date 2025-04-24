@@ -1,0 +1,182 @@
+{
+  "id": "song4",
+  "title": "Papa",
+  "artist": "Stef Bos",
+  "lyrics": [
+    [
+      {
+        "type": "instruction",
+        "text": "Luister goed naar het liedje. Vul alle werkwoorden in (in de juiste vorm)."
+      },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Ik " },
+      { "type": "blank", "answer": "heb" },
+      { "type": "text", "text": " dezelfde ogen" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "En ik " },
+      { "type": "blank", "answer": "krijg" },
+      { "type": "text", "text": " jouw trekken om mijn mond" },
+      { "type": "newline" },
+
+      {
+        "type": "text",
+        "text": "Vroeger was ik driftig, vroeger was jij driftig"
+      },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Maar we " },
+      { "type": "blank", "answer": "hebben" },
+      { "type": "text", "text": " onze rust gevonden" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "En we " },
+      { "type": "blank", "answer": "zitten" },
+      { "type": "text", "text": " naast elkaar" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "En we " },
+      { "type": "blank", "answer": "zeggen" },
+      { "type": "text", "text": " niet zoveel" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Voor alles wat jij " },
+      { "type": "blank", "answer": "doet" },
+      { "type": "text", "text": ", " },
+      { "type": "text", "text": "heb ik hetzelfde ritueel" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Papa, ik " },
+      { "type": "blank", "answer": "lijk" },
+      { "type": "text", "text": " steeds meer op jou" },
+      { "type": "newline" },
+      { "type": "newline" }
+    ],
+    [
+      { "type": "text", "text": "Ik " },
+      { "type": "blank", "answer": "heb" },
+      { "type": "text", "text": " dezelfde handen" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "En ik " },
+      { "type": "blank", "answer": "krijg" },
+      { "type": "text", "text": " jouw rimpels in mijn huid" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Jij " },
+      { "type": "blank", "answer": "hebt" },
+      { "type": "text", "text": " jouw ideeën, ik " },
+      { "type": "blank", "answer": "heb" },
+      { "type": "text", "text": " mijn ideeën" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "En we " },
+      { "type": "blank", "answer": "zwerven" },
+      { "type": "text", "text": " in gedachten" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Maar we " },
+      { "type": "blank", "answer": "komen" },
+      { "type": "text", "text": " altijd thuis" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "De waarheid die je " },
+      {
+        "type": "blank",
+        "answer": "zocht",
+        "hint": "imperfectum van 'zoeken'"
+      },
+      { "type": "text", "text": " en die je nooit hebt gevonden" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Ik " },
+      { "type": "blank", "answer": "zoek" },
+      { "type": "text", "text": " haar ook en tevergeefs zolang ik " },
+      { "type": "blank", "answer": "leef" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Want papa, ik " },
+      { "type": "blank", "answer": "lijk" },
+      { "type": "text", "text": " steeds meer op jou" },
+      { "type": "newline" },
+      { "type": "newline" }
+    ],
+    [
+      { "type": "text", "text": "Vroeger " },
+      { "type": "blank", "answer": "kon" },
+      { "type": "text", "text": " je streng zijn" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "En God, ik " },
+      { "type": "blank", "answer": "heb" },
+      { "type": "text", "text": " je soms gehaat" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Maar jouw woorden, ze " },
+      { "type": "blank", "answer": "liggen" },
+      { "type": "text", "text": " op m’n lippen" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "En ik " },
+      { "type": "blank", "answer": "praat" },
+      { "type": "text", "text": " nu zoals jij vroeger " },
+      {
+        "type": "blank",
+        "answer": "praatte",
+        "hint": "imperfectum van 'praten'"
+      },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Ik " },
+      { "type": "blank", "answer": "heb" },
+      { "type": "text", "text": " een goddeloos geloof" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "En ik " },
+      { "type": "blank", "answer": "hou" },
+      { "type": "text", "text": " van elke vrouw" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "En misschien " },
+      { "type": "blank", "answer": "ben" },
+      { "type": "text", "text": " ik geworden wat jij helemaal niet " },
+      { "type": "blank", "answer": "wou" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Maar papa, ik " },
+      { "type": "blank", "answer": "lijk" },
+      { "type": "text", "text": " steeds meer op jou" },
+      { "type": "newline" },
+      { "type": "newline" }
+    ],
+    [
+      { "type": "text", "text": "En jij " },
+      { "type": "blank", "answer": "gelooft" },
+      { "type": "text", "text": " in God" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Dus jij " },
+      { "type": "blank", "answer": "gaat" },
+      { "type": "text", "text": " naar de hemel" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "En ik " },
+      { "type": "blank", "answer": "geloof" },
+      { "type": "text", "text": " in niks" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Dus we " },
+      { "type": "blank", "answer": "komen" },
+      { "type": "text", "text": " elkaar na de dood nooit meer tegen" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Maar papa, ik " },
+      { "type": "blank", "answer": "hou" },
+      { "type": "text", "text": " steeds meer van jou" },
+      { "type": "newline" },
+      { "type": "newline" }
+    ]
+  ],
+  "youtube": "https://www.youtube.com/watch?v=8wxVTIB6qE4"
+}

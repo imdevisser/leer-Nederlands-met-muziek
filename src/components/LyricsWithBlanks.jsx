@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
 import ReactPlayer from "react-player";
+import LyricsAnswers from "./LyricsAnswers";
 
 import song1 from "../data/songs/song1.json";
 import song2 from "../data/songs/song2.json";
 import song3 from "../data/songs/song3.json";
+import song4 from "../data/songs/song4.json";
+import song5 from "../data/songs/song5.json";
 
 import {
   VideoWrapper,
@@ -15,6 +18,7 @@ import {
   FactHover,
   FactHoverWrapper,
   CheckAnswersButton,
+  ToggleAnswersButton,
   StyledBr,
   Verse,
   LyricsContainer,
@@ -25,11 +29,14 @@ const songs = {
   song1,
   song2,
   song3,
+  song4,
+  song5,
 };
 
 export default function LyricsWithBlanks({ selected }) {
   const [inputs, setInputs] = useState({});
   const [feedback, setFeedback] = useState({});
+  const [showAnswers, setShowAnswers] = useState(false);
 
   const songData = songs[selected];
 
@@ -39,7 +46,7 @@ export default function LyricsWithBlanks({ selected }) {
     setFeedback({});
   }, [selected]);
 
-  if (!songData) return;
+  if (!songData) return null;
 
   const handleChange = (key, value) => {
     setInputs((prev) => ({ ...prev, [key]: value }));
@@ -121,6 +128,12 @@ export default function LyricsWithBlanks({ selected }) {
       <CheckAnswersButton onClick={checkAnswers}>
         Check je antwoorden
       </CheckAnswersButton>
+
+      <ToggleAnswersButton onClick={() => setShowAnswers(!showAnswers)}>
+        {showAnswers ? "Verberg oplossing" : "Toon oplossing"}
+      </ToggleAnswersButton>
+
+      {showAnswers && <LyricsAnswers lyrics={songData.lyrics} />}
     </>
   );
 }

@@ -1,0 +1,235 @@
+{
+  "id": "song5",
+  "title": "Dochters",
+  "artist": "Marco Borsato",
+  "lyrics": [
+    [
+      {
+        "type": "instruction",
+        "text": "Luister goed naar het liedje. Vul alle werkwoorden in (in de juiste vorm)"
+      },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Kwart over zeven op zondagmorgen" },
+      { "type": "newline" },
+      { "type": "text", "text": "Hoor ik een stem die heel zachtjes aan me " },
+      {
+        "type": "blank",
+        "answer": "vraagt"
+      },
+      { "type": "text", "text": "" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Ben je al wakker, pap?" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Kom je gezellig mee naar beneden?" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Moet je straks werken of " },
+      {
+        "type": "blank",
+        "answer": "ben"
+      },
+      { "type": "text", "text": " je vrij vandaag?" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "En " },
+      {
+        "type": "blank",
+        "answer": "ga"
+      },
+      { "type": "text", "text": " je dan even met mij op stap?" },
+      { "type": "newline" },
+      { "type": "newline" }
+    ],
+    [
+      { "type": "text", "text": "Ooh wat " },
+      {
+        "type": "blank",
+        "answer": "gaat"
+      },
+      { "type": "text", "text": " de tijd toch snel" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Gisteren nog " },
+      { "type": "blank", "answer": "zag", "hint": "imperfectum van 'zien'" },
+      { "type": "text", "text": " ik haar voor het eerst" },
+      { "type": "newline" },
+
+      { "type": "blank", "answer": "Lag", "hint": "imperfectum van 'liggen'" },
+      { "type": "text", "text": " ze hier in m'n armen" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Wat is ze mooi" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "En wat " },
+      {
+        "type": "blank",
+        "answer": "staat"
+      },
+      { "type": "text", "text": " de tijd haar goed" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Ik " },
+      {
+        "type": "blank",
+        "answer": "knipper"
+      },
+      { "type": "text", "text": " m'n ogen en " },
+      {
+        "type": "blank",
+        "answer": "zie"
+      },
+      { "type": "text", "text": " hoe ze steeds" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Weer een beetje veranderd is" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Maar hoe groot ze ook mag zijn" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "In mijn ogen " },
+      {
+        "type": "blank",
+        "answer": "blijft"
+      },
+      { "type": "text", "text": " ze altijd klein" },
+      { "type": "newline" },
+      { "type": "newline" }
+    ],
+    [
+      { "type": "text", "text": "Kwart over zeven op zondagmorgen" },
+      { "type": "newline" },
+      { "type": "text", "text": "Hoor ik de voordeur heel zachtjes open " },
+      { "type": "blank", "answer": "gaan" },
+      { "type": "text", "text": "." },
+      { "type": "newline" },
+
+      { "type": "text", "text": "En " },
+      {
+        "type": "blank",
+        "answer": "val"
+      },
+      { "type": "text", "text": " ik gerust in slaap" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Ze " },
+      { "type": "blank", "answer": "is" },
+      { "type": "text", "text": " thuis" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Ik " },
+      { "type": "blank", "answer": "was", "hint": "imperfectum van 'zijn'" },
+      { "type": "text", "text": " haar veel liever op gaan halen" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Maar ze " },
+      { "type": "blank", "answer": "had", "hint": "imperfectum van 'hebben'" },
+      { "type": "text", "text": " me gevraagd of ik er niet wilde gaan staan" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Ze " },
+      {
+        "type": "blank",
+        "answer": "vindt"
+      },
+      { "type": "text", "text": " nu inmiddels haar weg naar huis" },
+      { "type": "newline" },
+      { "type": "newline" }
+    ],
+    [
+      { "type": "text", "text": "En ooh wat " },
+      { "type": "blank", "answer": "gaat" },
+      { "type": "text", "text": " de tijd toch snel" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Gisteren nog " },
+      { "type": "blank", "answer": "zag", "hint": "imperfectum van 'zien'" },
+      { "type": "text", "text": " ik haar voor het eerst" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Lag ze hier in m'n armen" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Wat is ze mooi" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Wat " },
+      {
+        "type": "blank",
+        "answer": "staat"
+      },
+      { "type": "text", "text": " de tijd haar goed" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Ik " },
+      {
+        "type": "blank",
+        "answer": "knipper"
+      },
+      { "type": "text", "text": " m'n ogen en " },
+      {
+        "type": "blank",
+        "answer": "zie"
+      },
+      { "type": "text", "text": " hoe ze steeds" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Weer een beetje veranderd is." },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Maar hoe groot ze ook mag zijn" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "In mijn ogen " },
+      {
+        "type": "blank",
+        "answer": "blijft"
+      },
+      { "type": "text", "text": " ze altijd klein" },
+      { "type": "newline" },
+      { "type": "newline" }
+    ],
+    [
+      { "type": "text", "text": "En soms, wanneer ik m'n ogen " },
+      { "type": "blank", "answer": "sluit" },
+      { "type": "text", "text": "" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Lopen we samen op het strand" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Haar handje in de mijne" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "En dan" },
+      {
+        "type": "blank",
+        "answer": "zet",
+        "hint": "tegenwoordige tijd van 'zetten'"
+      },
+      { "type": "text", "text": " ze de tijd even stil" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Is het weer even net als toen" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "En " },
+      { "type": "blank", "answer": "heeft" },
+      { "type": "text", "text": " ze mij weer nodig" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Ik " },
+      { "type": "blank", "answer": "hou" },
+      { "type": "text", "text": " haar vast" },
+      { "type": "newline" },
+
+      { "type": "text", "text": "Zoals ze was. Ik hou haar vast." },
+      { "type": "newline" }
+    ]
+  ],
+  "youtube": "https://www.youtube.com/watch?v=7azASBMAkOU"
+}

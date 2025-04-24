@@ -15,7 +15,8 @@ const Head = styled.div`
   padding: 2rem;
 
   h1 {
-    font-size: 7rem;
+    font-family: "Fuzzy Bubbles", Montserat;
+    font-size: 8rem;
     line-height: 6rem;
     padding: 2rem;
     background: linear-gradient(90deg, #ae1c28, #21468b, #ff9f00);

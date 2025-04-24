@@ -44,6 +44,7 @@ export default function LyricsWithBlanks({ selected }) {
     // Reset state when a new song is selected
     setInputs({});
     setFeedback({});
+    setShowAnswers(false);
   }, [selected]);
 
   if (!songData) return null;

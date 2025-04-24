@@ -1,4 +1,5 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+import welcometext from "../data/welcometext.json";
 import song1 from "../data/songs/song1.json";
 import song2 from "../data/songs/song2.json";
 import song3 from "../data/songs/song3.json";
@@ -39,6 +40,7 @@ export default function SearchBar({ selected, setSelected }) {
           </optgroup>
         </Select>
       </Wrapper>
+      {!selected && <WelcomeText>{welcometext.noSongSelected}</WelcomeText>}
     </Dropdown>
   );
 }
@@ -100,5 +102,35 @@ const Select = styled.select`
   @media (max-width: 768px) {
     font-size: 1.4rem;
     padding: 0.8rem 1.2rem;
+  }
+`;
+
+const fadeInUp = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
+
+const WelcomeText = styled.p`
+  background: linear-gradient(90deg, #c66069, #647eae);
+  color: #fffaf0;
+  padding: 2.4rem;
+  border-radius: 1.2rem;
+  max-width: 50rem;
+  margin: 8rem auto;
+  font-size: 1.8rem;
+  text-align: center;
+
+  animation: ${fadeInUp} 1s ease-out both;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+    font-size: 1.6rem;
   }
 `;

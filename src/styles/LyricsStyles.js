@@ -1,23 +1,23 @@
 import styled from "styled-components";
 
 export const VideoWrapper = styled.div`
-  margin-top: 3.2rem;
+  padding: 1rem;
+  margin: 3.2rem auto 0 auto;
   max-width: 35rem;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 1.2rem;
   overflow: hidden;
+  background-color: #ff9f00;
   box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.1);
 
   @media (max-width: 768px) {
-    max-width: 50%;
+    max-width: 80%;
     margin-top: 1.6rem;
   }
 `;
 
 export const LyricsContainer = styled.div`
-  // background-color: #fffaf0;
-  background: linear-gradient(90deg, #ae1c28, #21468b);
+  // background: linear-gradient(90deg, #ae1c28, #21468b);
+  background: linear-gradient(90deg, #c66069, #647eae);
   color: #fffaf0;
   padding: 2.4rem;
   border-radius: 1.2rem;
@@ -224,8 +224,8 @@ export const StyledBr = styled.br`
 export const AnswerWord = styled.span`
   font-weight: bold;
   text-decoration: underline dotted;
-  color: #888;
-  font-size: 2rem;
+  color #FFE6BD;
+  font-size: 3rem;
   margin: 0 2px;
 `;
 
